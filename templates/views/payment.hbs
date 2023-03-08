@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment portal</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+{{!-- {{>navbar}} --}}
+
+   <div class="container">
+
+      <form action="">
+         <h1>Personal details</h1>
+         <h3>* Are Manidatory To Fill</h3>
+         <p>Name* : <input type="text" name="name" id="name" required></p>
+         <p>Phone no.* : <input type="number" name="phone" id="phone" required></p>
+         <fieldset>
+            <legend>Gender</legend>
+            <p>
+               Male <input type="radio" name="gender" id="male"required>
+               Female <input type="radio" name="gender" id="Female"required>
+               
+            </p>
+         </fieldset>
+         
+         <p>Address* : <textarea name="Address" id="Address" cols="100" rows="10" required></textarea></p>
+         <p>Date of birth* : <input type="date" name="date of birth" id="date of birth" required></p>
+         <P>Email* : <input type="email" name="email" id="email" required></P>
+         
+         <h1>Payment details</h1>
+         <p>Card Type*
+            <select name="card_type" id="card_type">
+               <option value="">---select card---</option>
+               <option value="Visa">Visa</option>
+               <option value="Rupay">Rupay</option>
+               <option value="Mastercard">Mastercard</option>
+            </select> 
+         </p>
+         <p>Card no.* : <input type="number" name="card_no." id="card_no." required></p>
+         <p>Expire date* : <input type="date" name="expire_date" id="expire_date" required></p>
+         <p>Cvc no.* : <input type="password" name="cvc_no." id="cvc_no." required></p>
+         <input type="submit" value="submit">
+      </form>
+        
+   </div>
+</body>
+</html>

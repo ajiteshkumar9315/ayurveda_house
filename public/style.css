@@ -1,0 +1,179 @@
+.pos{
+    position: absolute;
+    bottom: 4px;
+  right: 75px;
+}
+
+
+
+.leftpos1{
+   
+    position: absolute;
+    bottom: 4px;
+    left: 400px;
+    
+}
+
+.leftpos2{
+    position: absolute;
+    bottom: 4px;
+    left: 500px;
+}
+
+.leftpos3{
+    position: absolute;
+    bottom: 4px;
+    left: 600px;
+    
+}
+
+.leftpos4{
+    position: absolute;
+    bottom: 5px;
+    left: 700px;
+   
+}
+
+.imag{
+    text-align: center;
+}
+
+.imag1{
+    transition: width 1s;
+}
+
+.imag1:hover{
+    width: 30%;
+}
+
+.imag2{
+    transition: width 1s;
+}
+
+.imag2:hover{
+    width: 45%;
+}
+
+.imag3{
+    transition: width 1s;
+}
+
+.imag3:hover{
+    width: 30%;
+}
+
+.colo{
+    background-color: rgb(127, 132, 132);
+}
+
+.head{
+    text-align: center;
+}
+
+.heal{
+    margin: 5px;
+    padding: 5px;
+}
+
+.foot{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.foot0{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hove:hover{
+    color: rgb(183, 119, 62);
+}
+
+.he5{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    text-decoration: none;
+    opacity: 0;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    
+}
+
+.he5:hover{
+    opacity: 1;
+    
+    
+}
+
+/* .form-signin{
+    background-color: rgb(120, 161, 163);
+} */
+
+/* .login-body{
+    
+    background-image: url(./images/background.jpg);
+} */
+
+.con{
+    background-color: rgb(171, 194, 195);
+    height: 450px;
+    width: 900px;
+}
+
+.email{
+    width: 35%;
+    height: 10px;
+    position: relative;
+    bottom: 15px;
+    left: 300px;
+    width: 35%;
+}
+
+.password{
+    width: 35%;
+    height: 10px;
+    position: relative;
+    top: 30px;
+    left: 300px;
+    width: 35%;
+}
+
+.agree{
+    position: relative;
+    top: 90px;
+    left: 300px;
+    font-size: small;
+}
+
+.btn1{
+    position: relative;
+    top: 90px;
+    left: 300px;
+    width: 35%;
+}
+
+.pull-left{
+    position: relative;
+    top: 135px;
+    right: 5px;
+}
+
+.pull-right{
+    position: relative;
+    top: 135px;
+    left: 90px;
+    text-decoration: none;
+}
+
+.new-account{
+    position: relative;
+    top: 165px;
+    right: 40px;
+    text-decoration: none;
+}
