@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
     "build": "npm install",
-    "dev": "nodemon src/index.js -e js,hbs",
+    "dev": "nodemon src/app.js -e js,hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
