@@ -49,15 +49,11 @@ const CustomerId = new mongoose.Schema({
 
 // generate tokens
 CustomerId.methods.generateAuthToken = async function(){
-    try {
-        console.log(this._id);
-        const token = jwt.sign({_id:this._id}, "mynameisajiteshkumarcomputersciencestudent");
-        this.tokens = this.tokens.concat({token:token})
-        await this.save();
-        return token;
-    } catch (error) {
-        resizeBy.send(`the error part is ${error.message}`);
-    }
+    console.log(this._id);
+    const token = jwt.sign({_id:this._id}, "mynameisajiteshkumarcomputersciencestudent");
+    this.tokens = this.tokens.concat({token:token})
+    await this.save();
+    return token;
 }
 
 // converting passwoed into hash
